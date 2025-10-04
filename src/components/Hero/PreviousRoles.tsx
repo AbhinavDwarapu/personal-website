@@ -35,7 +35,7 @@ export default function PreviousRoles() {
         //     > 
         <div className={cn('absolute flex flex-col top-1/2 translate-y-24 sm:w-72 w-80 justify-center gap-2 items-center transition-opacity duration-1000 ease-in-out', isVisible ? 'opacity-100' : 'opacity-0')}>
             {/* First row - 3 icons */}
-            <div className="hidden sm:flex flex-row gap-2 items-center">
+            {/* <div className="hidden sm:flex flex-row gap-2 items-center">
                 <Link href="https://newsroom.spotify.com/" target="_blank" rel="noopener noreferrer" passHref>
                     <Tooltip>
                         <TooltipTrigger>
@@ -75,7 +75,7 @@ export default function PreviousRoles() {
                         </TooltipContent>
                     </Tooltip>
                 </Link>
-            </div>
+            </div> */}
 
             {/* Second row - 2 icons */}
             <div className="flex flex-row gap-2 items-center">
