@@ -35,7 +35,7 @@ export default function StickyNote({
           <h1 className="pt-8 pl-2 pr-2 font-(family-name:--font-caveat) text-left text-3xl font-bold w-full">
             {title}
           </h1>
-          <p className="p-4 font-(family-name:--font-caveat) text-xl font-semibold text-gray-700">
+          <p className="p-4 font-(family-name:--font-indie-flower) text-sm font-semibold">
             {content}
           </p>
         </div>

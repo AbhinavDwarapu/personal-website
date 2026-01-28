@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono, Caveat } from "next/font/google";
+import { Geist, Geist_Mono, Caveat, Patrick_Hand, Edu_SA_Hand } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -18,6 +18,12 @@ const caveat = Caveat({
   weight: ["400", "700"],
 });
 
+const indieFlower = Edu_SA_Hand({
+  variable: "--font-indie-flower",
+  subsets: ["latin"],
+  weight: ["400"],
+});
+
 export const metadata: Metadata = {
   title: "Abhinav D. | Software Engineer",
   description: "My Personal Website",
@@ -32,7 +38,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${caveat.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${caveat.variable} ${indieFlower.variable} antialiased`}
       >
         {children}
       </body>
