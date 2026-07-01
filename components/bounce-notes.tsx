@@ -37,8 +37,8 @@ export default function BounceCards({
     if (!propTransformStyles) {
       const randomStyles = items.map(() => {
         const rotation = Math.random() * 20 - 10; // Random between -10 and 10
-        const x = Math.random() * 50 - 25; // Random between -5 and 5
-        const y = Math.random() * 50 - 25; // Random between -5 and 5
+        const x = Math.round(Math.random() * 50 - 25); // Random between -25 and 25
+        const y = Math.round(Math.random() * 50 - 25); // Random between -25 and 25
         return `rotate(${rotation}deg) translateX(${x}px) translateY(${y}px)`;
       });
       setTransformStyles(randomStyles);
