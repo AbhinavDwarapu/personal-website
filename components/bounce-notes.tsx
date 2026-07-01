@@ -127,6 +127,7 @@ export default function BounceCards({
           duration: 0.4,
           ease: "back.out(1.4)",
           overwrite: "auto",
+          force3D: false,
         });
       } else {
         gsap.to(selector, {
@@ -134,6 +135,7 @@ export default function BounceCards({
           duration: 0.4,
           ease: "back.out(1.4)",
           overwrite: "auto",
+          force3D: false,
         });
       }
     });
@@ -158,6 +160,7 @@ export default function BounceCards({
         duration: 0.4,
         ease: "back.out(1.4)",
         overwrite: "auto",
+        force3D: false,
       });
     });
   };
@@ -175,6 +178,7 @@ export default function BounceCards({
         duration: 0.4,
         ease: "back.out(1.4)",
         overwrite: "auto",
+        force3D: false,
       });
     });
   };
