@@ -9,6 +9,7 @@ export default function MyArt() {
                     src="https://cdzpi6btmsee6ggg.public.blob.vercel-storage.com/NightTree.jpg"
                     alt="A 3D rendering of a tree at night with the moon and stars in the background."
                     title="Midnight Retreat"
+                    priority
                 />, <PhotoCard
                     src="https://cdzpi6btmsee6ggg.public.blob.vercel-storage.com/Grave%20Hill.jpg"
                     alt="A 3D rendering of a grave hill with the bright sun in the background."
