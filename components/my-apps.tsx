@@ -34,6 +34,13 @@ export default function MyApps() {
           key="research-bot"
         />,
         <StickyNote
+          title="NoteCompass"
+          content="A guitar note trainer to help players learn and identify notes on the fretboard."
+          link="https://www.notecompass.app/"
+          color="yellow"
+          key="notecompass"
+        />,
+        <StickyNote
           title="VE2.Studio"
           content="A live video editor with distributed rendering, file upload, and AI-generated widgets."
           link="https://ve2.studio/"
